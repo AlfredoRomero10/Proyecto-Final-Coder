@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #beabbe;
+  background-color: #fafafa;
   font-family: monospace;
   height: 100%;
 }
@@ -18,13 +18,8 @@ header {
   margin: auto;
 }
 
-.logo {
-  text-decoration: none;
-  font-weight: bold;
-  font-family: "IBM Plex Serif", serif;
-}
-h1 a {
-  font-size: 30px;
+.collapse {
+  flex-grow: 0;
 }
 
 nav {
@@ -57,7 +52,7 @@ nav ul li a:hover {
   font-size: 20px;
 }
 
-/* AQUI COMIENZA EL MAIN PRIMERA SECCION */
+/* ---------- AQUI COMIENZA EL MAIN PRIMERA SECCION ---------- */
 
 .main-seccion {
   display: grid;
@@ -72,6 +67,24 @@ nav ul li a:hover {
   align-items: center;
 }
 
+.titulo {
+  background-color: red;
+  border-radius: 10px;
+  padding: 25px;
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.seguimiento {
+  background-color: red;
+  border-radius: 10px;
+  padding: 25px;
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .titulo-envio {
   font-size: 38px;
 }
@@ -80,8 +93,10 @@ nav ul li a:hover {
   font-size: 32px;
 }
 
-.servicio {
-  padding: 80px;
+/* ---------- AQUI COMIENZA LA SECCION SERVICIO ---------- */
+
+.carousel-item {
+  height: 600px;
 }
 
 .titulo-serivicio {
@@ -97,9 +112,11 @@ nav ul li a:hover {
 
 img {
   border-radius: 15px;
+  height: 100%;
+  object-fit: cover;
 }
 
-/* AQUI COMIENZA LA SECCION AYUDA */
+/* ---------- AQUI COMIENZA LA SECCION AYUDA ---------- */
 
 .ayuda {
   display: flex;
@@ -128,7 +145,7 @@ img {
   font-size: 22px;
 }
 
-/* AQUI COMIENZA EL FOOTER */
+/* --------- AQUI COMIENZA EL FOOTER  --------- */
 
 .seccion-footer {
   color: whitesmoke;
@@ -156,7 +173,7 @@ li {
   flex-direction: column;
 }
 footer ul li {
-  color: white;
+  color: rgb(255, 255, 255);
   margin: 20px;
 }
 footer ul li h5 {
@@ -166,7 +183,7 @@ footer ul li p {
   font-size: 14px;
 }
 
-/* HTML CONTACTO*/
+/* --------- HTML CONTACTO --------- */
 
 .contenedor-formulario {
   padding: 20px;
@@ -234,9 +251,9 @@ label {
   margin-top: 50px;
 }
 
-/* HACIENDO RESPONSIVE MI PAGINA*/
+/* ---------- HACIENDO RESPONSIVE MI PAGINA ---------- */
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   body {
     background-color: rgb(149, 189, 90);
   }
