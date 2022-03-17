@@ -134,7 +134,15 @@ img {
 }
 
 .titulo-ayuda {
-  width: 50%;
+  width: 40%;
+  transition: transform 1s;
+}
+
+.titulo-ayuda:hover {
+  transform: scale(1.2);
+  box-shadow: 4px 6px 19px -5px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 4px 6px 19px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 6px 19px -5px rgba(0, 0, 0, 0.75);
 }
 
 .descripcion {
