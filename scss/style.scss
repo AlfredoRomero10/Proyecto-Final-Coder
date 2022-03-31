@@ -1,4 +1,6 @@
 $bg-red: red;
+$bg-blanco: #fafafa;
+$letra-negra: black;
 
 * {
   margin: 0;
@@ -7,7 +9,7 @@ $bg-red: red;
 }
 
 body {
-  background-color: #fafafa;
+  background-color: $bg-blanco;
   font-family: monospace;
   height: 100%;
 }
@@ -31,22 +33,17 @@ nav {
   justify-content: space-between;
   padding: 20px;
   display: flex;
-}
-
-nav ul li {
-  display: inline;
-}
-
-nav,
-ul,
-li,
-a {
-  color: black;
-  font-size: 18px;
-  text-decoration: none;
-  padding-left: 15px;
-  font-weight: bold;
-  letter-spacing: 1px;
+  li {
+    display: inline;
+    a {
+      color: $letra-negra;
+      font-size: 18px;
+      text-decoration: none;
+      padding-left: 15px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+  }
 }
 
 nav ul li a:hover {
@@ -203,7 +200,7 @@ footer ul li p {
 
 .titulo-formulario {
   font-size: 50px;
-  color: black;
+  color: $letra-negra;
   text-decoration: underline;
 }
 
