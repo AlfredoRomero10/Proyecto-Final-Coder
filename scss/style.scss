@@ -1,3 +1,7 @@
+@import "footer";
+@import "main";
+
+
 $bg-red: red;
 $bg-blanco: #fafafa;
 $letra-negra: black;
@@ -51,144 +55,6 @@ nav ul li a:hover {
   font-size: 20px;
 }
 
-/* ---------- AQUI COMIENZA EL MAIN PRIMERA SECCION ---------- */
-
-.main-seccion {
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: 2fr 2fr 3fr;
-}
-
-.envio {
-  display: flex;
-  justify-content: space-around;
-  padding: 60px;
-  align-items: center;
-}
-
-.titulo {
-  background-color: $bg-red;
-  border-radius: 10px;
-  padding: 25px;
-  color: white;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.seguimiento {
-  background-color: $bg-red;
-  border-radius: 10px;
-  padding: 25px;
-  color: white;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.titulo-envio {
-  font-size: 38px;
-}
-
-.seguimiento-envio {
-  font-size: 32px;
-}
-
-/* ---------- AQUI COMIENZA LA SECCION SERVICIO ---------- */
-
-.carousel-item {
-  height: 600px;
-}
-
-.titulo-serivicio {
-  display: flex;
-  justify-content: center;
-}
-
-.lista-servicio {
-  display: flex;
-  justify-content: space-around;
-  padding: 38px;
-}
-
-img {
-  border-radius: 15px;
-  height: 100%;
-  object-fit: cover;
-}
-
-/* ---------- AQUI COMIENZA LA SECCION AYUDA ---------- */
-
-.ayuda {
-  display: flex;
-  justify-content: space-around;
-  height: auto;
-  align-items: center;
-}
-
-.ayuda-seccion {
-  width: 70%;
-  display: flex;
-  justify-content: space-around;
-  padding: 30px;
-  align-items: center;
-}
-
-.titulo-ayuda {
-  width: 40%;
-  transition: transform 1s;
-}
-
-.titulo-ayuda:hover {
-  transform: scale(1.2);
-  box-shadow: 4px 6px 19px -5px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: 4px 6px 19px -5px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 4px 6px 19px -5px rgba(0, 0, 0, 0.75);
-}
-
-.descripcion {
-  display: flex;
-  flex-direction: column;
-  gap: 27px;
-  padding: 25px;
-  font-size: 22px;
-}
-
-/* --------- AQUI COMIENZA EL FOOTER  --------- */
-
-.seccion-footer {
-  color: whitesmoke;
-  display: flex;
-  justify-content: space-between;
-  height: 150px;
-  padding: 70px;
-}
-
-.footer-descripcion {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.lista {
-  display: flex;
-  justify-content: right;
-}
-
-li {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-}
-footer ul li {
-  color: rgb(255, 255, 255);
-  margin: 20px;
-}
-footer ul li h5 {
-  font-size: 20px;
-}
-footer ul li p {
-  font-size: 14px;
-}
 
 /* --------- HTML CONTACTO --------- */
 
@@ -206,7 +72,7 @@ footer ul li p {
 
 .contenido-formulario {
   text-align: center;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS", sans-serif;
   height: 70vh;
   margin: 100px;
   padding: 30px;
