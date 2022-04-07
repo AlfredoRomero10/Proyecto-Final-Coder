@@ -306,6 +306,13 @@ label {
     margin: 5px;
   
   }
+
+  .seccion-seguimiento{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
   .carousel-item {
 
     padding: 40px;
