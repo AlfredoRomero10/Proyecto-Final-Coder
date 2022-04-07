@@ -1,0 +1,29 @@
+America Envios Presupuesto  Fecha 05/04/2022
+
+Nombre: Alfredo
+
+Descripcion:
+
+- Diseño de sitio $3.000
+- Desarrollo del sitio $10.000
+- SEO $7.500
+- Mantenimiento $6.500
+
+TOTAL: $27.000
+
+
+Servicios:
+
+. Diseño del sitio:
+ - Utilizacion de frameworks para la estructura de la pagina web.
+ - Diseño de paginas y secciones utilizando reponsive desing.
+
+. Desarrollo del sitio:
+ - Creacion de paginas
+ - Utilizacion de colores calidos
+ - Utilizacion de imagenes y videos para la web.
+
+. Mantenimiento:
+ - Mantenimiento constante del sitio.
+ - Actualizaciones de precios y diseños.
+ - Desarrollos de nuevas paginas y secciones.
