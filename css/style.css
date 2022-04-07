@@ -59,14 +59,30 @@ nav ul li a:hover {
 }
 
 .envio {
+  width:100%;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
   padding: 60px;
   align-items: center;
+  
+}
+
+.encabezado {
+  text-transform:uppercase;
+  color: #fff;
+}
+
+.seccion-seguimiento{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height:100%;
+  margin-block: auto;
   background-image: url(/Imagenes/imagen\ camion.jpg);
   background-repeat: no-repeat;
-  margin: 20px;
+  
   background-position: center;
+  background-size: cover;
 }
 
 .titulo {
@@ -76,6 +92,7 @@ nav ul li a:hover {
   color: white;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+  align-self: center;
 }
 
 .seguimiento {
@@ -85,6 +102,7 @@ nav ul li a:hover {
   color: white;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+  align-self: center;
 }
 
 .titulo-envio {
@@ -98,6 +116,7 @@ nav ul li a:hover {
 /* ---------- AQUI COMIENZA LA SECCION SERVICIO ---------- */
 .carousel-item {
   height: 600px;
+  padding: 35px;
 }
 
 .titulo-serivicio {
@@ -134,7 +153,7 @@ img {
 }
 
 .titulo-ayuda {
-  width: 40%;
+  
   transition: transform 1s;
 }
 
@@ -209,7 +228,7 @@ footer ul li p {
 .contenido-formulario {
   text-align: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  height: 70vh;
+  
   margin: 100px;
   padding: 30px;
   color: #584116;
@@ -218,8 +237,10 @@ footer ul li p {
 
 input,
 textarea {
-  height: 25px;
-  width: 200px;
+  
+  width: 100%;
+  min-height: 32px;
+ 
 }
 
 .formulario {
@@ -229,6 +250,10 @@ textarea {
 
 label {
   text-align: left;
+}
+
+.comentario-contacto{
+  width: 100% ;
 }
 
 /*---------- HTML NOSOTROS ----------*/
@@ -264,4 +289,34 @@ label {
 .logo-producto {
   text-align: center;
   border-radius: 5px;
+}
+.logo-producto img{
+  width: 100%;
+
+}
+
+@media  (max-width:768px) {
+  .envio{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    background-position: center;
+    object-fit: cover;
+    padding: 0px;
+    margin: 5px;
+  
+  }
+  .carousel-item {
+
+    padding: 40px;
+  }
+  .ayuda-seccion {
+    display: flex;
+    flex-direction:column;
+  }
+  .titulo-ayuda img{
+    width: 100%;
+    align-items: center;
+  }
+  
 }
